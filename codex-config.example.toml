@@ -1,0 +1,6 @@
+# Merge into your existing Codex configuration; update the two absolute paths.
+[mcp_servers.supreme-council]
+command = 'C:\path\to\node.exe'
+args = ['C:\path\to\Supreme council\src\server.js']
+startup_timeout_sec = 20
+tool_timeout_sec = 60

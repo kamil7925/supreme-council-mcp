@@ -1,0 +1,21 @@
+{
+  "name": "supreme-council-mcp",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP server for independent multi-provider project reviews",
+  "engines": { "node": ">=22" },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js",
+    "demo": "node scripts/demo.js",
+    "check": "node scripts/doctor.js",
+    "example": "node scripts/example-client.js",
+    "audit:transfer": "node scripts/audit-transfer.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  }
+}
